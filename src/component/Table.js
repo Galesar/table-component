@@ -34,10 +34,6 @@ export default function Table({data, sort, addObject}) {
         pages: 1,
         data: data
     })
-    useEffect(() => {
-        updatePage();
-        console.log(pages);
-    }, [pages.currentPage])
 
     const updatePage = () => {
         sliceData(data, pages.currentPage);
@@ -74,6 +70,7 @@ export default function Table({data, sort, addObject}) {
         if(tempObject.currentPage < tempObject.pages)
          tempObject.currentPage = tempObject.currentPage + 1;
         setPages({...tempObject})
+        updatePage();
     }
 
     const previousPage = () => {
@@ -81,6 +78,7 @@ export default function Table({data, sort, addObject}) {
         if(tempObject.currentPage > 1) 
          tempObject.currentPage = tempObject.currentPage - 1;
         setPages({...tempObject})
+        updatePage();
     }
 
     const [objectData, setObjectData] = useState({})
