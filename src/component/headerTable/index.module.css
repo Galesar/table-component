@@ -1,0 +1,21 @@
+.headTable th{
+    padding: 25px!important
+}
+
+.filterButtonUp {
+    border: 10px solid transparent; border-bottom: 10px solid aquamarine;
+    position: relative;
+    display: inline-flex;
+    left: 5px;
+    /* top: 5px; */
+    bottom: 5px;
+}
+
+.filterButtonDown {
+    border: 10px solid transparent; border-top: 10px solid aquamarine;
+    position: relative;
+    display: inline-flex;
+    left: 5px;
+    top: 5px;
+    /* bottom: 5px; */
+}

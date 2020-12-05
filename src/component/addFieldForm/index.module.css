@@ -1,0 +1,14 @@
+.AddButton {
+    position: relative;
+    left: 43%;
+    top: 10px;
+    background-color: aquamarine;
+    border-radius: 10em;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}

@@ -1,0 +1,13 @@
+.FindButton {
+    position: relative;
+    right: 43%;
+    top: 50px;
+    background-color: aquamarine;
+    border-radius: 10em;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}

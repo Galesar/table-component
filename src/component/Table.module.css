@@ -1,0 +1,49 @@
+.changePageButton {
+    background-color: aquamarine;
+    border-color: aquamarine;
+    border-style: solid;
+    border-radius: 5em;
+    padding: 5px;
+}
+
+.currentPage {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.navigationBar {
+    padding: 10px;
+}
+
+.objectDataContainer {
+    margin: 10px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 3px;
+    border-radius: 0.5em;
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.objectDataContainer h3 {
+    font-size: 15px;
+    margin: 3px;
+    font-weight: 400;
+}
+
+.objectDataContainer span {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.container {
+    width: 50%;
+    display: block;
+}
