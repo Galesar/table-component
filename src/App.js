@@ -56,11 +56,6 @@ function App() {
       <header className="App-header">
         <Table data={data} sort={sortFunction} addObject={newObjectToData}/>
       </header>
-    <span>TO DO:
-      Add object | 
-      Fix pagination | 
-      filter component | 
-    </span>
     </div>
   );
 }

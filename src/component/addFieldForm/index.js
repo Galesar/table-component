@@ -57,18 +57,22 @@ export default function AddFieldForm ({addObject}) {
         return (
             <div>
                 <form>
-                    <label>
-                        <input type='number' placeholder="Id" {...bindId} />
-                    </label>
-                    <label>
-                        <input type='email' placeholder="Email" {...bindEmail} />
-                    </label>
-                    <label>
-                        <input type='text' placeholder="First Name" {...bindFirstName} />
-                    </label>
-                    <label>
-                        <input type='text' placeholder="Last Name" {...bindLastName} />
-                    </label>
+                    <div>
+                        <label>
+                            <input type='number' placeholder="Id" {...bindId} />
+                        </label>
+                        <label>
+                            <input type='email' placeholder="Email" {...bindEmail} />
+                        </label>
+                        <label>
+                            <input type='text' placeholder="First Name" {...bindFirstName} />
+                        </label>
+                        <label>
+                            <input type='text' placeholder="Last Name" {...bindLastName} />
+                        </label>
+                    </div>
+
+                    <div>
                     <label>
                         <input type='tel' placeholder="Phone number" {...bindPhone} />
                     </label>
@@ -84,9 +88,13 @@ export default function AddFieldForm ({addObject}) {
                     <label>
                         <input type='number' placeholder="ZIP" {...bindZip} />
                     </label>
+                    </div>
+
+                    <div className={styles.descriptionField}>
                     <label>
                         <textarea type='text' placeholder="Description" {...bindDescription} />
                     </label>
+                    </div>
                     <button onClick={logNewData}>Confirm</button>
                 </form>
             </div>

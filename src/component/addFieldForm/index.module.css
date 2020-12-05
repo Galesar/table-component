@@ -12,3 +12,8 @@
     text-decoration: none;
     margin: 10px;
 }
+
+.descriptionField textarea {
+    width: 93%!important;
+    resize: vertical;
+}
