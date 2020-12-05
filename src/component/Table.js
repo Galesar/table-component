@@ -134,7 +134,7 @@ export default function Table({data, sort, addObject}) {
     const resetFindObject = () => {
         const tempObject = pages;
         tempObject.data = data;
-        setPages({...tempObject})
+        setPages({...tempObject});
         updatePage();
     }
 
