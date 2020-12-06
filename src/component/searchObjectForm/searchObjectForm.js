@@ -15,7 +15,8 @@ export default function SearchObjectForm({findObject, resetFindObject}) {
     }
 
     const findDataHandler = () => {
-        findObject(searchInfo);
+        if(searchInfo.length <= 1) return null;
+        else findObject(searchInfo);
     }
 
     const renderForm = () => {
